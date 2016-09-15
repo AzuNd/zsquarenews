@@ -1,0 +1,193 @@
+body 
+{   
+    background-color: lightgray;
+    height: 250%;
+    width: 100%;
+}
+
+
+.jumbotron 
+{   
+    background-color: indianred;
+    height: 210px;
+    width: 100%;
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 78px;
+    font-family: 'Tangerine', cursive;
+    text-shadow: 20px 20px 20px #aaa;
+}
+
+#red
+{
+    color: red;
+    top: -5px;
+}    
+    
+#white
+{
+    color: white
+}
+#blue 
+{
+    color: blue;
+}
+
+h2 
+{
+    color: white;
+    text-align: center; 
+    font-size: 40px;
+    margin-top: -1%;
+}
+
+.scroll 
+{
+    height: 30%;
+    width: 100%;
+    margin: auto;
+    margin-top: -20px;
+    color: black;
+    font-size: 19px;
+}
+
+
+
+.potus
+{
+    border: 1px solid black;
+    margin-top: 7px;
+}
+
+.admag
+{
+    border: 1px solid black;
+    margin-top: 15px;
+    height: 30%;
+}
+
+
+
+/*Start of page 2 css*/
+.modalnews
+{
+    height: 250px;
+    margin-top: -2%;
+}
+
+.allnews
+{
+    height: 100px;
+    margin-top: -4px;
+}
+
+/*Start of page 3 css*/
+
+.modaledit
+{
+    background-color: lightgreen;
+    margin-top: -3%;
+}
+
+.allnews1
+{
+    background-color: lightblue;
+    margin-top: 2%;
+    color: white;
+}
+.allad
+{
+    background-color: green;
+    margin-top: 2%;
+    color: white;
+}
+.allnews2
+{
+    background-color: yellow;
+    margin-top: 2%;
+    height: 150px;
+}
+
+.listing
+{
+    margin-top: 3%;
+}
+
+#main-img /*p2 GALLERY styling begins*/
+{
+    height:92px;
+    width:200px;
+}
+
+ul img
+{
+    height: 80px;
+    width: 50px;
+    opacity: 5;
+}
+
+#gallery 
+{
+    border: 1px solid black;
+    height: 245px;
+    width: 110%;
+    margin-top: 25px;
+    float: right;
+}
+
+#gallery li
+{
+        display:inline-block;
+        margin-right:3px;
+}
+
+.change
+{
+    opacity:1;
+}
+
+#scroll1 
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    background-color: beige;
+    margin: auto;
+    padding-left: 7px;
+}
+
+
+
+#scroll2 
+{
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    overflow: scroll;
+    background-color: beige;
+    margin: auto;
+    padding-left: 7px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    strong
+    {
+        font-size:32px;
+    }
+    #scroll1, #scroll2
+    {
+        color: blue;
+        width: 100%;
+        margin-left: -1px;
+    }
+
+} 
+
+
+
+
+
+
